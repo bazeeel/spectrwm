@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# poweroptionsmenu --- rofi interface for session actions.
+#
+# Copyright (c) 2019 Protesilaos Stavrou <info@protesilaos.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Void Linux dependencies:
+#     xbps-install -S rofi
+
+# Possible actions (see case statement at the end for the actual
+# commands)
+actions=('Log out' 'Log out dwm' 'Reboot' 'Power off')
+
+# List actions to choose from
+_list_actions() {
+    # use printf to output array items on a new line
+    printf '%s\n' "${actions[@]}" | rofi -dmenu -i -no-custom -p 'Power options'
+}
+
+choice="$(_list_actions)"
+
+_pkill() {
+    if pgrep -x "$1"; then
+        pkill -x "$1"
+    fi
+}
+
+_kill_processes() {
+    _pkill sxhkd
+    _pkill feh
+    _pkill picom
+    _pkill dwm
+}
+
+# Run the selected command.
+#
+# The `reboot' and `poweroff' require escalated privileges.  Read:
+# https://wiki.voidlinux.org/Post_Installation#Allow_users_to_shutdown_without_a_password
+case "$choice" in
+    L*) _kill_processes && bspc quit      ;;
+    D*) _kill_processes && pkill dwm      ;;
+    R*) _kill_processes && sudo reboot    ;;
+    P*) _kill_processes && sudo powerofF
+esac
