@@ -15,8 +15,8 @@ dunst &                 # dunst for notifications
 #dwmbar.sh &
 # #hideIt.sh &
 mpdupdate &
-~/.config/polybar/launch.sh &
-~/scripts/spotify/launchlistener.sh &
+#~/.config/polybar/launch.sh &
+#~/scripts/spotify/launchlistener.sh &
 #bmpanel2 --theme=momo &
 #volumeicon &
 #blueberry-tray &
