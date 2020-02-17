@@ -1,0 +1,190 @@
+#########################
+# SUPER + KEYS #
+#########################
+
+super + {_,shift + } Return
+    {$TERMINAL, scratch}
+
+super + {_,shift + } d
+    {dmenu_run -fn Monospace-13, rofi_run -l}
+
+super + {_,shift + } r
+   {$TERMINAL -n $FILE -c $FILE -e $FILE, $TERMINAL -n $FILE -c $FILE -e sudo $FILE}
+
+super + {_,shift + } e
+    {$TERMINAL -e ranger, subl3}
+
+super + {_,shift + } m
+    {dman, spotify}
+
+super + {_,shift + } n
+    {$TERMINAL -e newsboat, $TERMINAL -e ncmpcpp}
+
+super + {_,shift + } i
+    {$TERMINAL -e htop, $TERMINAL -e gtop}
+
+
+#super + shift + a
+ #   $TERMINAL -e pulsemixer; pkill -RTMIN+10 i3blocks
+
+super + {_,shift + } c
+    {rofi_run, camtoggle}
+
+super + {_,shift + } w
+    {$BROWSER, firefox}
+
+super + {_,shift + } p
+    {discord, TelegramDesktop}
+
+super + shift + {x,BackSpace,Escape}
+    {prompt "Shutdown computer?" "sudo -A shutdown -h now", prompt "Reboot computer?" "sudo -A shutdown -r now", prompt "Are you sure you would like to quit this Xsession" "bspc quit"}
+
+
+# Et cetera...
+super + grave
+    dmenuunicode
+
+super + Scroll_Lock
+    killall screenkey || screenkey
+
+super + Insert
+    tdrop -ma -w 1080 -x 350 -h 37% -y 52 urxvt
+
+
+#Reload sxhkd:
+super + Escape
+    pkill -USR1 -x sxhkd
+
+
+super + {_,shift + } a
+   {toggleprogram "picom -b", scratch}
+
+
+#########################
+#     SCREENSHOTS       #
+#########################
+
+# Recording
+# Take screenshot
+Prior
+    maim pic-full-$(date '+%y%m%d-%H%M-%S').png
+
+# Pick screenshot type
+shift + Prior
+    maimpick
+
+# Record audio or video
+super + Prior
+    dmenurecord
+
+# kill active recording
+super + shift + Prior
+    dmenurecord kill
+
+# kill x
+super + q
+   xdo close
+
+#########################
+#     MULTIMEDIA KEYS   #
+#########################
+
+XF86Launch1
+    xset dpms force off
+
+#F10
+ #   amixer set Master 5%-
+
+#F11
+ #   amixer set Master 5%+
+
+super + l ; {F11,F10,F9}
+	amixer {-q set Master 5%+,-q set Master 5%-,set Master toggle}
+
+## Music control
+XF86Audio{Next,Prev,Play,Stop}
+	mpc {next,prev,toggle,stop
+
+XF86MonBrightnessDown
+    xbacklight -dec 15
+XF86MonBrightnessUp
+    xbacklight -inc 15
+
+# Changes to next/previous tracks
+super + {comma,period}
+    lmc {prev,next}
+# Restart track
+super + shift + less
+    lmc replay
+# Increase volume
+super + {equal,plus}
+    lmc up {5,15}
+# Decrease volume
+super {_,shift +} + minus
+    lmc down {5,15}
+# Seek foward in song
+super + {_,shift +} bracketright
+    lmc forward {10,120}
+# Seek backward in song
+super + {_,shift +} bracketleft
+    lmc back {10,120}
+
+
+# Function keys
+# Show readme
+super + F1
+    dmenufm
+
+#edconf
+super + F2
+  edconf.sh
+
+# Change display
+super + F3
+    displayselect
+
+# Hibernate
+super + F4
+    prompt 'Hibernate computer?' 'sudo systemctl suspend'
+
+# Restart/rescan wifi/eth networks
+super + F5
+    sudo -A systemctl restart NetworkManager
+
+# Start torrent daemon/open interface
+super + F6
+    $TERMINAL -e cava
+
+# toggle torrent daemon
+super + F7
+    td-toggle
+
+# sync email
+
+super + F8
+    ulauncher
+
+# Mount a USB drive or Android device
+super + F9
+    dmenumount
+
+# Unmount a USB drive or Android device
+super + F10
+    dmenuumount
+
+# Search with Duckduckgo
+super + F11
+    ducksearch
+
+# Network Manager interface
+super + shift + F12
+    mpv --geometry=-0-0 --autofit=40%  --title="mpvfloat" https://www.youtube.com/watch?v=5zKizTREKzQ
+
+
+
+
+
+
+
+
+
