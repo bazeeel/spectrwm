@@ -22,75 +22,75 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/xeoncpu
-	Downloads
-3
 d/home/xeoncpu/Downloads
-	wallpapers-master
-3
-d/home/xeoncpu/Downloads/wallpapers-master
-	wallpapers-master
+	baz-voidrice
 1
-d/home/xeoncpu/Downloads/wallpapers-master/wallpapers-master
-	triangles_background_light_91693_1920x1080.jpg
-52
 d/home/xeoncpu
-	Downloads
-3
-d/home
-	xeoncpu
-1
-d/
-	etc
-3
-d/etc
-	hblock.d
-33
-d/etc/hblock.d
-	whitelist.list
+	.local
+6
+d/home/xeoncpu/.local
+	share
 2
 d/home/xeoncpu
 	Downloads
-3
-d/home/xeoncpu/Downloads
-	dwm-systray-20190208-cb3f58a.diff
-12
-d/home/xeoncpu
-	dwm
 13
-d/home/xeoncpu/dwm
-	dwm-systray-20190208-cb3f58a.diff
-11
-d/home/xeoncpu
-	..
-0
-d/home
-	xeoncpu
+d/home/xeoncpu/Downloads
+	baz-voidrice
+1
+d/home/xeoncpu/Downloads/baz-voidrice
+	.local
+5
+d/home/xeoncpu/Downloads/baz-voidrice/.local
+	bin
+1
+d/home/xeoncpu/Downloads/baz-voidrice
+	.local
+5
+d/home/xeoncpu/Downloads
+	baz-voidrice
 1
 d/home/xeoncpu
+	.config
+2
+d/home/xeoncpu/.config
+	shortcutrc
+42
+d/home/xeoncpu
+	Downloads
+13
+d/home/xeoncpu/Downloads
 	baz-voidrice
-11
-d/home/xeoncpu/baz-voidrice
+1
+d/home/xeoncpu/Downloads/baz-voidrice
 	.config
 1
-d/home/xeoncpu
-	baz-voidrice
-11
-d/home
-	xeoncpu
+d/home/xeoncpu/Downloads/baz-voidrice/.config
+	bmpanel2
+2
+d/home/xeoncpu/Downloads/baz-voidrice
+	.config
 1
-d/
-	home
-5
-d/home
-	xeoncpu
+d/home/xeoncpu/Downloads
+	baz-voidrice
 1
 d/home/xeoncpu
-	baz-voidrice
-11
-d/home/xeoncpu/baz-voidrice
-	.xprofile
+	.config
+2
+d/home/xeoncpu/.config
+	sxiv
+30
+d/home/xeoncpu
+	Downloads
 13
+d/home/xeoncpu/Downloads
+	baz-voidrice
+1
+d/home/xeoncpu/Downloads/baz-voidrice
+	.config
+1
+d/home/xeoncpu/Downloads/baz-voidrice/.config
+	sxhkd
+21
 
 # Right window history (oldest to newest):
 D/home/xeoncpu/.config/polybar
@@ -160,8 +160,8 @@ D/home/xeoncpu/.config/scripts
 	..
 0
 D/home/xeoncpu
-	baz-voidrice
-11
+	..
+0
 
 # Command line history (oldest to newest):
 :mkdir media
@@ -188,7 +188,10 @@ pspotify_rules
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/xeoncpu/scripts
+""/home/xeoncpu/.config/alsi
+""/home/xeoncpu/.config/conky
+""/home/xeoncpu/.config/rofi
+""/home/xeoncpu/.config/sxhkd
 
 # Directory stack (oldest to newest):
 
@@ -935,3 +938,27 @@ t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200109-1321-22.png
 	/home/xeoncpu/pic-full-200109-1321-22.png
 t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200109-1626-53.png
 	/home/xeoncpu/pic-full-200109-1626-53.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_2020-02-21-163928_1920x1080_scrot.png
+	/home/xeoncpu/2020-02-21-163928_1920x1080_scrot.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_2020-02-21-164025_1920x1080_scrot.png
+	/home/xeoncpu/2020-02-21-164025_1920x1080_scrot.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_2020-02-21-164202_1920x1080_scrot.png
+	/home/xeoncpu/2020-02-21-164202_1920x1080_scrot.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_2020-02-22-061600_1920x1080_scrot.png
+	/home/xeoncpu/2020-02-22-061600_1920x1080_scrot.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_aio-core.sh
+	/home/xeoncpu/aio-core.sh
+t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200220-1840-21.png
+	/home/xeoncpu/pic-full-200220-1840-21.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200220-1840-29.png
+	/home/xeoncpu/pic-full-200220-1840-29.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200221-1622-32.png
+	/home/xeoncpu/pic-full-200221-1622-32.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200223-0615-08.png
+	/home/xeoncpu/pic-full-200223-0615-08.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200223-0615-11.png
+	/home/xeoncpu/pic-full-200223-0615-11.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200223-0714-27.png
+	/home/xeoncpu/pic-full-200223-0714-27.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_bin
+	/home/xeoncpu/Downloads/baz-voidrice/.config/bin

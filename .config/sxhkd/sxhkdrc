@@ -2,8 +2,8 @@
 # SUPER + KEYS #
 #########################
 
-super + {_,shift + } Return
-    {$TERMINAL, scratch}
+super + Return
+    $TERMINAL
 
 super + {_,shift + } d
     {dmenu_run -fn Monospace-13, rofi_run -l}
@@ -12,29 +12,17 @@ super + {_,shift + } r
    {$TERMINAL -n $FILE -c $FILE -e $FILE, $TERMINAL -n $FILE -c $FILE -e sudo $FILE}
 
 super + {_,shift + } e
-    {$TERMINAL -e ranger, subl3}
-
-super + {_,shift + } m
-    {dman, spotify}
-
-super + {_,shift + } n
-    {$TERMINAL -e newsboat, $TERMINAL -e ncmpcpp}
-
-super + {_,shift + } i
-    {$TERMINAL -e htop, $TERMINAL -e gtop}
-
-
-#super + shift + a
- #   $TERMINAL -e pulsemixer; pkill -RTMIN+10 i3blocks
+    {spawn, wmctrl -s 1 && subl3}
 
 super + {_,shift + } c
     {rofi_run, camtoggle}
 
 super + {_,shift + } w
-    {$BROWSER, firefox}
+    {$BROWSER, wmctrl -s 0 && firefox}
 
-super + {_,shift + } p
-    {discord, TelegramDesktop}
+super + {_,shift + } n
+    {wmctrl -s 2 && discord, wmctrl -s 2 && telegram-desktop}
+
 
 super + shift + {x,BackSpace,Escape}
     {prompt "Shutdown computer?" "sudo -A shutdown -h now", prompt "Reboot computer?" "sudo -A shutdown -r now", prompt "Are you sure you would like to quit this Xsession" "bspc quit"}
@@ -50,15 +38,29 @@ super + Scroll_Lock
 super + Insert
     tdrop -ma -w 1080 -x 350 -h 37% -y 52 urxvt
 
+# Add focused window to a tabbed instance in given direction
+super + t; {h,j,k,l}
+    tabc add {west,south,north,east} "$(xdo id -N -n focused)"
+
+# Remove one tab from tabbed
+super + t; r
+    tabbed=$(bspc query -N -n focused); \
+    child=$(tabc list $tabbed | head -n1); \
+    tabc remove $child
+
+
 
 #Reload sxhkd:
 super + Escape
     pkill -USR1 -x sxhkd
 
 
-super + {_,shift + } a
-   {toggleprogram "picom -b", scratch}
+#########################
+# ALT + KEYS #
+#########################
 
+alt + {_,shift + } a
+   {toggleprogram "picom -b", scratch}
 
 #########################
 #     SCREENSHOTS       #
@@ -83,7 +85,7 @@ super + shift + Prior
 
 # kill x
 super + q
-   xdo close
+   xdo  kill
 
 #########################
 #     MULTIMEDIA KEYS   #
@@ -129,19 +131,18 @@ super + {_,shift +} bracketright
 super + {_,shift +} bracketleft
     lmc back {10,120}
 
-
-# Function keys
+ # Function keys
 # Show readme
 super + F1
     dmenufm
 
-#edconf
+# Restart bspwm
 super + F2
   edconf.sh
 
 # Change display
-super + F3
-    displayselect
+#super + F3
+ #   displayselect
 
 # Hibernate
 super + F4
@@ -158,7 +159,6 @@ super + F6
 # toggle torrent daemon
 super + F7
     td-toggle
-
 # sync email
 
 super + F8
@@ -180,7 +180,9 @@ super + F11
 super + shift + F12
     mpv --geometry=-0-0 --autofit=40%  --title="mpvfloat" https://www.youtube.com/watch?v=5zKizTREKzQ
 
-
+# Emulate i3's scratchpad
+F12
+    rofi_run -l
 
 
 

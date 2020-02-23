@@ -13,24 +13,20 @@ unclutter &		# Remove mouse when idle
 picom --config ~/.config/picom.conf &		# xcompmgr for transparency
 dunst &                 # dunst for notifications
 #dwmbar.sh &
-# #hideIt.sh &
 mpdupdate &
 #~/.config/polybar/launch.sh &
 #~/scripts/spotify/launchlistener.sh &
 #bmpanel2 --theme=momo &
-#volumeicon &
 #blueberry-tray &
 #xrandr --output LVDS1 --mode 1366x768 --output HDMI1 --mode 1920x1080 --right-of LVDS1 &
 #xrandr --output HDMI1 --primary --mode 1920x1080 --output LVDS1 --off
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#conky -c $HOME/.config/conky/AC1-System-Bar-LUA.conkyrc &
 #nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }" &
 #xwinwrap -d &
 #gifwall &
 #wmname LG3D
 
-## Set status bar
-#while true; do
- #   bash .xsetroot.sh
-  #  sleep 5s
-#done &
+
+
 
