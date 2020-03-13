@@ -22,134 +22,77 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/xeoncpu/Downloads
-	baz-voidrice
-1
-d/home/xeoncpu
-	.local
-6
-d/home/xeoncpu/.local
-	share
-2
 d/home/xeoncpu
 	Downloads
-13
+1
 d/home/xeoncpu/Downloads
-	baz-voidrice
+	Solarized-Numix-FLAT-Orange_1.9.5
 1
-d/home/xeoncpu/Downloads/baz-voidrice
-	.local
-5
-d/home/xeoncpu/Downloads/baz-voidrice/.local
-	bin
-1
-d/home/xeoncpu/Downloads/baz-voidrice
-	.local
-5
-d/home/xeoncpu/Downloads
-	baz-voidrice
-1
-d/home/xeoncpu
-	.config
-2
-d/home/xeoncpu/.config
-	shortcutrc
-42
 d/home/xeoncpu
 	Downloads
-13
-d/home/xeoncpu/Downloads
-	baz-voidrice
 1
-d/home/xeoncpu/Downloads/baz-voidrice
-	.config
-1
-d/home/xeoncpu/Downloads/baz-voidrice/.config
-	bmpanel2
-2
-d/home/xeoncpu/Downloads/baz-voidrice
-	.config
-1
-d/home/xeoncpu/Downloads
-	baz-voidrice
-1
-d/home/xeoncpu
-	.config
-2
-d/home/xeoncpu/.config
-	sxiv
-30
-d/home/xeoncpu
-	Downloads
-13
-d/home/xeoncpu/Downloads
-	baz-voidrice
-1
-d/home/xeoncpu/Downloads/baz-voidrice
-	.config
-1
-d/home/xeoncpu/Downloads/baz-voidrice/.config
-	sxhkd
-21
-
-# Right window history (oldest to newest):
-D/home/xeoncpu/.config/polybar
-	config
-3
-D/home/xeoncpu/.config
-	bspwm
-2
-D/home/xeoncpu/.config/bspwm
-	polybar
-2
-D/etc/X11
-	..
-0
-D/home/xeoncpu
-	..
-0
-D/home
+d/home
 	xeoncpu
 1
-D/
+d/
 	home
 4
-D/home
+d/home
 	xeoncpu
 1
-D/home/xeoncpu
-	Letöltések
+d/home/xeoncpu
+	.icons
 5
-D/home/xeoncpu/Letöltések
-	dotfiles-master-.config-vifm
-5
-D/home/xeoncpu/Letöltések/dotfiles-master-.config-vifm
-	dotfiles-master-.config-vifm
+d/home/xeoncpu/.icons
+	Solarized-Numix-FLAT-Orange_1.9.5
 1
-D/home/xeoncpu/Letöltések/dotfiles-master-.config-vifm/dotfiles-master-.config-vifm
+d/home/xeoncpu
+	Képek
+2
+d/home/xeoncpu/Képek
+	wallpapers-master
+1
+d/home/xeoncpu/Képek/wallpapers-master
 	..
 0
-D/home/xeoncpu/Letöltések/dotfiles-master-.config-vifm
-	dotfiles-master-.config-vifm
+d/home/xeoncpu/Képek
+	wallpapers-master
 1
-D/home/xeoncpu/Letöltések/dotfiles-master-.config-vifm/dotfiles-master-.config-vifm
+d/home/xeoncpu/Képek/wallpapers-master
+	0032.jpg
+32
+d/home/xeoncpu
 	.config
-1
-D/home/xeoncpu/Letöltések/dotfiles-master-.config-vifm/dotfiles-master-.config-vifm/.config
-	vifm
-1
-D/home/xeoncpu/Letöltések/dotfiles-master-.config-vifm/dotfiles-master-.config-vifm/.config/vifm
-	scripts
 2
-D/home/xeoncpu/Letöltések/dotfiles-master-.config-vifm/dotfiles-master-.config-vifm/.config/vifm/scripts
-	vifmrun
-4
-D/home/xeoncpu
-	baz-voidrice
-9
-D/home/xeoncpu/baz-voidrice
-	.config
+d/home/xeoncpu/.config
+	sxhkd
+19
+d/home/xeoncpu/.config/sxhkd
+	sxhkdrc
 1
+d/home/xeoncpu
+	.config
+2
+d/home/xeoncpu/.config
+	alsi
+2
+d/home/xeoncpu/.config/alsi
+	..
+0
+d/home/xeoncpu/.config
+	aliasrc
+33
+d/home/xeoncpu
+	Képek
+11
+d/home/xeoncpu/Képek
+	wallpapers-master
+1
+d/home/xeoncpu
+	Downloads
+10
+
+# Right window history (oldest to newest):
 D/home/xeoncpu/baz-voidrice/.config
 	vifm
 23
@@ -159,6 +102,63 @@ D/home/xeoncpu
 D/home/xeoncpu/.config/scripts
 	..
 0
+D/home/xeoncpu
+	.config
+2
+D/home/xeoncpu/.config
+	herbstluftwm
+15
+D/home/xeoncpu/.config/herbstluftwm
+	panel.sh
+4
+D/home/xeoncpu/.config
+	herbstluftwm
+15
+D/home/xeoncpu
+	.local
+6
+D/home/xeoncpu/.local
+	bin
+1
+D/home/xeoncpu/.local/bin
+	panel.sh
+46
+D/home/xeoncpu/.local
+	bin
+1
+D/home/xeoncpu
+	arco-herbstluftwm
+3
+D/home/xeoncpu/arco-herbstluftwm
+	..
+0
+D/home/xeoncpu
+	.config
+2
+D/home/xeoncpu/.config
+	vifm
+30
+D/home/xeoncpu
+	.local
+6
+D/home/xeoncpu/.local
+	bin
+1
+D/home/xeoncpu
+	.config
+2
+D/home/xeoncpu/.config
+	conky
+5
+D/home/xeoncpu/.config/conky
+	conky.conf
+1
+D/home/xeoncpu
+	.themes
+10
+D/home/xeoncpu/.themes
+	Solarized-Dark-Green
+1
 D/home/xeoncpu
 	..
 0
@@ -175,6 +175,7 @@ D/home/xeoncpu
 :mkdir Videos 
 :mkdir spotify
 :mkdir scripts
+:mkdir bin
 
 # Search history (oldest to newest):
 
@@ -188,10 +189,7 @@ pspotify_rules
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/xeoncpu/.config/alsi
-""/home/xeoncpu/.config/conky
-""/home/xeoncpu/.config/rofi
-""/home/xeoncpu/.config/sxhkd
+""/home/xeoncpu/Downloads/Solarized-Numix-FLAT-Orange_1.9.5
 
 # Directory stack (oldest to newest):
 
@@ -938,6 +936,16 @@ t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200109-1321-22.png
 	/home/xeoncpu/pic-full-200109-1321-22.png
 t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200109-1626-53.png
 	/home/xeoncpu/pic-full-200109-1626-53.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_baz-spectrwm
+	/home/xeoncpu/baz-spectrwm
+t/home/xeoncpu/.local/share/vifm/Trash/000_aio-core.sh
+	/home/xeoncpu/aio-core.sh
+t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200218-1706-51.png
+	/home/xeoncpu/pic-full-200218-1706-51.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_arco-herbstluftwm
+	/home/xeoncpu/arco-herbstluftwm
+t/home/xeoncpu/.local/share/vifm/Trash/000_baz-voidrice
+	/home/xeoncpu/Downloads/baz-voidrice
 t/home/xeoncpu/.local/share/vifm/Trash/000_2020-02-21-163928_1920x1080_scrot.png
 	/home/xeoncpu/2020-02-21-163928_1920x1080_scrot.png
 t/home/xeoncpu/.local/share/vifm/Trash/000_2020-02-21-164025_1920x1080_scrot.png
@@ -946,8 +954,6 @@ t/home/xeoncpu/.local/share/vifm/Trash/000_2020-02-21-164202_1920x1080_scrot.png
 	/home/xeoncpu/2020-02-21-164202_1920x1080_scrot.png
 t/home/xeoncpu/.local/share/vifm/Trash/000_2020-02-22-061600_1920x1080_scrot.png
 	/home/xeoncpu/2020-02-22-061600_1920x1080_scrot.png
-t/home/xeoncpu/.local/share/vifm/Trash/000_aio-core.sh
-	/home/xeoncpu/aio-core.sh
 t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200220-1840-21.png
 	/home/xeoncpu/pic-full-200220-1840-21.png
 t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200220-1840-29.png
@@ -962,3 +968,47 @@ t/home/xeoncpu/.local/share/vifm/Trash/000_pic-full-200223-0714-27.png
 	/home/xeoncpu/pic-full-200223-0714-27.png
 t/home/xeoncpu/.local/share/vifm/Trash/000_bin
 	/home/xeoncpu/Downloads/baz-voidrice/.config/bin
+t/home/xeoncpu/.local/share/vifm/Trash/000_.spectrwm-keys.conf
+	/home/xeoncpu/.spectrwm-keys.conf
+t/home/xeoncpu/.local/share/vifm/Trash/000_baz-dzen2
+	/home/xeoncpu/baz-dzen2
+t/home/xeoncpu/.local/share/vifm/Trash/000_bin
+	/home/xeoncpu/bin
+t/home/xeoncpu/.local/share/vifm/Trash/000_.xmonad
+	/home/xeoncpu/.xmonad
+t/home/xeoncpu/.local/share/vifm/Trash/000_spectrwm
+	/home/xeoncpu/Downloads/spectrwm
+t/home/xeoncpu/.local/share/vifm/Trash/000_The.Voice.S18E02.720p.HEVC.x265-MeGusta [IPT].torrent
+	/home/xeoncpu/Downloads/The.Voice.S18E02.720p.HEVC.x265-MeGusta [IPT].torrent
+t/home/xeoncpu/.local/share/vifm/Trash/000_Trial.by.Fire.2018.1080p.WEBRip.x264-RARBG-[rarbg.to].torrent
+	/home/xeoncpu/Downloads/Trial.by.Fire.2018.1080p.WEBRip.x264-RARBG-[rarbg.to].torrent
+t/home/xeoncpu/.local/share/vifm/Trash/000_[bHUm_#637529]Trial_By_Fire_2018_DVDRip_x264-LPD.torrent
+	/home/xeoncpu/Downloads/[bHUm_#637529]Trial_By_Fire_2018_DVDRip_x264-LPD.torrent
+t/home/xeoncpu/.local/share/vifm/Trash/000_[nCore][hd_hun]Inyencfalat.1991.WEB-DL.720p.H.264.Hun-Pirosasz.torrent
+	/home/xeoncpu/Downloads/[nCore][hd_hun]Inyencfalat.1991.WEB-DL.720p.H.264.Hun-Pirosasz.torrent
+t/home/xeoncpu/.local/share/vifm/Trash/000_[nCore][hd_hun]Pajzs.A.Resen.Avagy.A.Tokeletlen.Ero.1995.BluRay.1080p.x264.Hun.Pirosasz.torrent
+	/home/xeoncpu/Downloads/[nCore][hd_hun]Pajzs.A.Resen.Avagy.A.Tokeletlen.Ero.1995.BluRay.1080p.x264.Hun.Pirosasz.torrent
+t/home/xeoncpu/.local/share/vifm/Trash/000_[nCore][hd_hun]Rabold.El.Az.Aranyat.1967.BluRay.1080p.x264.Hun-Pirosasz.torrent
+	/home/xeoncpu/Downloads/[nCore][hd_hun]Rabold.El.Az.Aranyat.1967.BluRay.1080p.x264.Hun-Pirosasz.torrent
+t/home/xeoncpu/.local/share/vifm/Trash/000_[nCore][hd_hun]Rambo.Last.Blood.2019.Extended.Cut.720p.READ.NFO.BluRay.DD+5.1.x264.HuN-TRiNiTY.torrent
+	/home/xeoncpu/Downloads/[nCore][hd_hun]Rambo.Last.Blood.2019.Extended.Cut.720p.READ.NFO.BluRay.DD+5.1.x264.HuN-TRiNiTY.torrent
+t/home/xeoncpu/.local/share/vifm/Trash/000_[nCore][hd_hun]Volt.Egyszer.Egy.Gyilkossag.1992.BluRay.1080p.x264.3xHUN-Pirosasz.torrent
+	/home/xeoncpu/Downloads/[nCore][hd_hun]Volt.Egyszer.Egy.Gyilkossag.1992.BluRay.1080p.x264.3xHUN-Pirosasz.torrent
+t/home/xeoncpu/.local/share/vifm/Trash/000_qutebrowser-config.py
+	/home/xeoncpu/Downloads/qutebrowser-config.py
+t/home/xeoncpu/.local/share/vifm/Trash/000_1214274332.zip
+	/home/xeoncpu/Downloads/1214274332.zip
+t/home/xeoncpu/.local/share/vifm/Trash/000_xbm_icons
+	/home/xeoncpu/xbm_icons
+t/home/xeoncpu/.local/share/vifm/Trash/000_dwm
+	/home/xeoncpu/dwm
+t/home/xeoncpu/.local/share/vifm/Trash/000_herbstluftwm
+	/home/xeoncpu/.config/herbstluftwm
+t/home/xeoncpu/.local/share/vifm/Trash/000_rtl88-Themes
+	/home/xeoncpu/Downloads/rtl88-Themes
+t/home/xeoncpu/.local/share/vifm/Trash/000_2020-03-12-165059_1920x1080_scrot.png
+	/home/xeoncpu/2020-03-12-165059_1920x1080_scrot.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_2020-03-12-165755_1920x1080_scrot.png
+	/home/xeoncpu/2020-03-12-165755_1920x1080_scrot.png
+t/home/xeoncpu/.local/share/vifm/Trash/000_2020-03-12-181048_1920x1080_scrot.png
+	/home/xeoncpu/2020-03-12-181048_1920x1080_scrot.png

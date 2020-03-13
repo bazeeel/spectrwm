@@ -2,11 +2,12 @@
 # SUPER + KEYS #
 #########################
 
-super + Return
-    $TERMINAL
+super + {_,shift + } Return
+    {$TERMINAL, wmctrl -s 7 && thunar}
 
 super + {_,shift + } d
-    {dmenu_run -fn Monospace-13, rofi_run -l}
+    {dmenu_run -i -p 'Search' -nb '#143834' -fn 'JetBrains Mono:size=12' -w '760' -h '25' -x '574' -y '48' -dim '0.4'
+, rofi_run -l}
 
 super + {_,shift + } r
    {$TERMINAL -n $FILE -c $FILE -e $FILE, $TERMINAL -n $FILE -c $FILE -e sudo $FILE}
@@ -68,7 +69,7 @@ alt + {_,shift + } a
 
 # Recording
 # Take screenshot
-Prior
+super + End
     maim pic-full-$(date '+%y%m%d-%H%M-%S').png
 
 # Pick screenshot type
