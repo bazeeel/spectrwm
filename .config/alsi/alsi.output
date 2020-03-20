@@ -21,6 +21,7 @@
 
 [
     # Operating system
+    {OS       => '%sOS:%s %s'}, 
     {HOSTNAME => '%sHostname:%s %s'},    # Hostname
     {UPTIME   => '%sUptime:%s %s'},      # Uptime
     {KERNEL   => '%sKernel:%s %s'},      # Kernel version

@@ -1,0 +1,68 @@
+# Keys
+
+super + Return
+    urxvt -g 110x30-500+200 -e htop
+
+super + shift + Return
+    $TERMINAL -g 125x30-550+240  
+
+super + shift + w
+    wmctrl -s 1 && discord  
+
+super + c
+    rofi_run -l
+
+super + d
+    dmenu_run -i -p 'Search' -nb '#143834' -fn 'JetBrains Mono Medium-12' -w '760' -h '22' -x '574' -y '40' -dim '0.4'
+
+super + shift + d
+    rofi --show run
+
+super + F2
+    $TERMINAL
+
+
+super + e
+    wmctrl -s 2 && subl3
+
+super + r
+    wmctrl -s 7 && $FILE 
+
+super + shift + r
+    $TERMINAL -g 70x20-16+30 -e calcurse
+
+super + w
+    wmctrl -s 0 && $BROWSER
+
+
+super + q
+    xdo close
+
+super + Escape
+    pkill -USR1 -x sxhkd
+
+
+# Screenshot
+
+Prior 
+   flameshot full -p ~/scrot/ -d 5000
+
+super + Prior
+   flameshot screen -r
+
+F12
+   mpv --geometry=20%-16+30 --title="mpvfloat" https://www.youtube.com/watch?v=_bOKCbPN3cg&list=RD_bOKCbPN3cg&start_radio=1
+   
+
+super + F10
+    amixer set Master 5%-
+
+super + F11
+    amixer set Master 5%+
+
+super + F12
+   amixer set Master toggle   
+
+# show bar on key press
+super + b
+    polybar-msg cmd toggle

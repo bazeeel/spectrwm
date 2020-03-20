@@ -2,6 +2,8 @@
 
 [ -f "$HOME/.xprofile" ] && . ~/.xprofile
 
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources &
+
 #exec bspwm
 
 exec spectrwm
@@ -11,3 +13,5 @@ exec spectrwm
 #exec xmonad
 
 #exec herbstluftwm --locked
+
+#exec berry

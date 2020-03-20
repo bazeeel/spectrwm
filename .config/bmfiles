@@ -1,0 +1,12 @@
+bf	~/.config/bmfiles
+bd	~/.config/bmdirs
+cfa	~/.config/aliasrc
+cfz	~/.zshrc
+cfv	~/.config/nvim/init.vim
+cfp	~/.config/polybar/config
+cfd	~/.Xdefaults
+cfmb ~/.config/ncmpcpp/bindings
+cfmc ~/.config/ncmpcpp/config
+cfb	~/.config/bspwm/bspwmrc
+cfk	~/.config/sxhkd/sxhkdrc
+cfsp ~/.spectrwm.conf

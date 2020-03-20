@@ -1,0 +1,4 @@
+#!/bin/sh
+
+wmctrl -s 5
+mpv --geometry=-0-0 --autofit=40%  --title="mpvfloat"

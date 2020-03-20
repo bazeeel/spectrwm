@@ -1,0 +1,10 @@
+# You can add comments to these files with #
+h	~/
+d	~/Documents
+D	~/Letöltések
+m	~/Music
+pp	~/Pictures
+vv	~/Videos
+cf	~/.config        # all configs for bspwm
+sc	~/.local/bin     # scripts folder
+mn	/mnt

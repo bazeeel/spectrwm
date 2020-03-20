@@ -1,4 +1,0 @@
-#!/bin/sh
-
-wmctrl -s 2
-/usr/bin/discord
